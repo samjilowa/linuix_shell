@@ -1,2 +1,2 @@
 # simple_shell
-Team project
+Team project by levis2kk & samjilowa
