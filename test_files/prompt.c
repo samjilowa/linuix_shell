@@ -4,5 +4,5 @@
 #include <stdio.h>
 
 void printPrompt() {
-    printf("SimpleShell> ");
+    printf("samuel and levi SimpleShell> ");
 }
