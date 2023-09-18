@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include<stdlib.h>
+#include "main.h"
+
+int main() {
+    char* input;
+    char** args;
+    int status;
+
+    while (1) {
+        printPrompt();
+        input = readInput();
+        if (input == NULL) {
+            printf("\n");
+            break;
+        }
+
+        args = parseInput(input);
+        status = executeCommand(args);
+
+        free(input);
+        freeMemory(args);
+    }
+
+    return 0;
+}

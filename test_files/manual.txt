@@ -1,2 +1,2 @@
 the simple shell was compliled using the command below
-gcc -o simple_shell main.c prompt.c read_input.c parse_input.c execute_command.c free_memory.c
+gcc -o simple_shell main.c prompt.c read_input.c parse_input.c execute_command.c free_memory.c pid.c ppid.c
