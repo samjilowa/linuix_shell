@@ -27,4 +27,7 @@ void printProductAndPid(void);
 pid_t get_parent_process_id(void);
 void print_sum_and_ppid(int x, int y);
 
+// Function declaration for exit_builtin
+void exit_builtin(int status);
+
 #endif
